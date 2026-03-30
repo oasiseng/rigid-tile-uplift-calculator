@@ -134,6 +134,7 @@ const RigidTileCalculator = () => {
                 <Select onValueChange={(value) => handleSelectChange('exposure', value)} value={inputs.exposure}>
                   <SelectTrigger><SelectValue /></SelectTrigger>
                   <SelectContent>
+                    <SelectItem value="B">B</SelectItem>
                     <SelectItem value="C">C</SelectItem>
                     <SelectItem value="D">D</SelectItem>
                   </SelectContent>
